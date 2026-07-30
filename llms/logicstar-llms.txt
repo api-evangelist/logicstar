@@ -1,0 +1,35 @@
+# LogicStar
+
+> LogicStar is an AI platform for autonomous software maintenance. Its AI agent investigates, reproduces, and fixes real bugs from a team's backlog — reproducing each bug with a failing test that proves it is real, then validating that the proposed fix resolves it before opening a pull request. Founded in 2024 in Zurich by the team behind DeepCode.ai (acquired by Snyk / Snyk Code), spun out of INSAIT/ETH Zurich, and backed by Northzone.
+
+Note: LogicStar is a product platform (used via app.logicstar.ai and Git/CI integrations). As of this writing it publishes no public developer API, SDK, or OpenAPI specification. Integrations are provider-side connectors (GitLab, Sentry), not a consumer API.
+
+## Product
+- [Home](https://logicstar.ai/): AI platform for reproducing and fixing bugs.
+- [Company](https://logicstar.ai/our-company/): Team, mission, and background.
+- [Pricing](https://logicstar.ai/pricing): Plans and pricing.
+- [FAQ](https://logicstar.ai/faq): Frequently asked questions.
+
+## Docs
+- [Documentation](https://logicstar.ai/documentation): Onboarding and integration guides.
+- [5-minute account setup](https://logicstar.ai/documentation/logicstar-5-minutes-account-setup-and-integrations): Getting started.
+- [GitLab integration](https://logicstar.ai/documentation/gitlab-integration): Connect a GitLab repository.
+- [Sentry integration](https://logicstar.ai/documentation/sentry-integration): Connect Sentry error tracking.
+
+## App
+- [Sign up / App](https://app.logicstar.ai): Start a trial.
+- [Book a demo](https://app.logicstar.ai/demo): Request a demo.
+
+## Research
+- [GitHub organization](https://github.com/logic-star-ai): Benchmarks and evaluation harnesses (SWT-Bench, BaxBench, agent insights).
+- [Blog](https://logicstar.ai/blog): Product and research writing.
+
+## Trust & Legal
+- [Trust Center](https://trust.logicstar.ai): Security and compliance posture.
+- [Privacy Policy](https://logicstar.ai/privacy-policy)
+- [Terms of Service](https://logicstar.ai/terms-of-service)
+
+## Support
+- Email: support@logicstar.ai
+- [Discord](https://discord.gg/5aEt69pwuc)
+- [LinkedIn](https://www.linkedin.com/company/logicstar-ai/)
