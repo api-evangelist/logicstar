@@ -1,8 +1,17 @@
 aid: logicstar
 name: Logicstar
-description: 'Logicstar is a company surfaced as a portfolio company of northzone and added to the API
-  Evangelist network as a stub for enrichment. Sector: enterprise; ai. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  LogicStar is an AI platform for autonomous software maintenance. Its AI agent
+  investigates, reproduces, and fixes real bugs from a development team's backlog:
+  it reproduces each bug with a failing test that proves the issue is real, then
+  validates that a proposed fix actually resolves it before opening a pull request,
+  keeping a human in the loop for review. LogicStar connects to a team's stack
+  through integrations such as GitLab and Sentry rather than a public developer API.
+  Founded in 2024 in Zurich by Boris Paskalev, Veselin Raychev, Mark Mueller, and
+  Prof. Dr. Martin Vechev — the team behind DeepCode.ai (acquired by Snyk, now Snyk
+  Code) and a spin-out of INSAIT/ETH Zurich — and backed by Northzone. As of this
+  writing the product is in alpha with design partners and supports Python, with
+  TypeScript, JavaScript, and Java support announced as coming soon.
 url: https://raw.githubusercontent.com/api-evangelist/logicstar/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +19,30 @@ x-backed-by:
 - northzone
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/6874a121b954d55798d6f879/69c149b77d207b9aaa9f6597_og.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-- Enterprise; Ai
+- Enterprise
+- Artificial Intelligence
+- AI Agents
+- Software Maintenance
+- Bug Fixing
+- Developer Tools
+- Code Quality
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,38 @@ maintainers:
 common:
 - type: Website
   url: https://logicstar.ai
+- type: DeveloperPortal
+  url: https://logicstar.ai/documentation
+- type: Documentation
+  url: https://logicstar.ai/documentation
+- type: GettingStarted
+  url: https://logicstar.ai/documentation/logicstar-5-minutes-account-setup-and-integrations
+- type: Blog
+  url: https://logicstar.ai/blog
+- type: GitHubOrganization
+  url: https://github.com/logic-star-ai
+- type: Pricing
+  url: https://logicstar.ai/pricing
+- type: SignUp
+  url: https://app.logicstar.ai
+- type: Support
+  url: https://logicstar.ai/faq
+- type: TermsOfService
+  url: https://logicstar.ai/terms-of-service
+- type: PrivacyPolicy
+  url: https://logicstar.ai/privacy-policy
+- type: TrustCenter
+  url: https://trust.logicstar.ai
+- type: LinkedIn
+  url: https://www.linkedin.com/company/logicstar-ai/
+- type: Discord
+  url: https://discord.gg/5aEt69pwuc
+- type: DomainSecurity
+  url: security/logicstar-domain-security.yml
+- type: LLMsTxt
+  url: llms/logicstar-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
