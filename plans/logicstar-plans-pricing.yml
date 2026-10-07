@@ -1,0 +1,57 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://logicstar.ai/pricing
+sources:
+- https://logicstar.ai/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+  managed_tier: Starter
+published: true
+note: Monthly/annual toggle; Pro monthly shows '$ 400 $800 /per month' (crossed-out style). Autonomous
+  fixes available as paid add-on without stated price.
+plan_count: 5
+currency: USD
+plans:
+- name: Starter (monthly)
+  price_text: $400 /per month
+  price: 400
+  currency: USD
+  period: month
+  included_quota: 20 bugs surfaced per month, 1 project monitored, up to 2 signal sources, shared secure
+    environment, standard support
+- name: Pro (monthly)
+  price_text: $800 /per month
+  price: 800
+  currency: USD
+  period: month
+  included_quota: 60 bugs surfaced per month, 3 projects monitored, unlimited signal sources, shared secure
+    environment, priority support
+- name: Starter (annual)
+  price_text: $320 /mo, billed yearly
+  price: 320
+  currency: USD
+  period: month
+  included_quota: 20 bugs surfaced per month, 1 project monitored, up to 2 signal sources
+- name: Pro (annual)
+  price_text: $640 /mo, billed yearly
+  price: 640
+  currency: USD
+  period: month
+  included_quota: 60 bugs surfaced per month, 3 projects monitored, unlimited signal sources
+- name: Enterprise
+  price_text: Talk to Sales
+  period: none
+  included_quota: Custom bugs/projects, custom integrations, autonomous fixes included, dedicated VPC
+    instance, SLA support + onboarding
+rate_limit_statements:
+- Bugs surfaced per month 20
+- Bugs surfaced per month 60
